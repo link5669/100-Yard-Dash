@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://fukdtwokmb07"
-path="res://.godot/imported/playerGrey_walk2.png-f5cfaf08bfb66680dc47cac4becdc491.ctex"
+uid="uid://ci8dd5e4vdkj2"
+path="res://.godot/imported/sprite_bunny7.png-ee8f0e5d5a64a595573f43f2f81a5bc3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://playerGrey_walk2.png"
-dest_files=["res://.godot/imported/playerGrey_walk2.png-f5cfaf08bfb66680dc47cac4becdc491.ctex"]
+source_file="res://bunny/sprite_bunny7.png"
+dest_files=["res://.godot/imported/sprite_bunny7.png-ee8f0e5d5a64a595573f43f2f81a5bc3.ctex"]
 
 [params]
 

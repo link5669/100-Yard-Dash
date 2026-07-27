@@ -19,7 +19,7 @@ public partial class Main : Node {
 		GameBoard[8] = new Space(true, SpaceType.Safe);
 		GameBoard[9] = new Space(true, SpaceType.Safe);
 		for (int i = 0; i < GameBoard.Length; i++) {
-			GameBoard[i].Position = new Vector2(i * 32, 0);
+			GameBoard[i].Position = new Vector2(128,64 + i * 128);
 			AddChild(GameBoard[i]);
 		}
 	}
@@ -38,11 +38,12 @@ public partial class Space : Area2D {
 
 	public override void _Ready() {
 		CollisionShape2D spaceShape = new CollisionShape2D();
+		spaceShape.Visible = false;
 		spaceShape.Shape = new CapsuleShape2D();
 		AddChild(spaceShape);
 
 		Sprite2D sprite = new Sprite2D();
-		sprite.Texture = GD.Load<Texture2D>("res://playerGrey_up1.png");
+		sprite.Texture = GD.Load<Texture2D>("res://circle.png");
 		AddChild(sprite);
 	}
 }
