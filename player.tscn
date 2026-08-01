@@ -38,7 +38,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("9_u1c27")
 }],
-"loop": 1,
+"loop": 0,
 "name": &"jump",
 "speed": 5.0
 }]
@@ -62,3 +62,6 @@ script = ExtResource("10_n7ghd")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1484027681]
 visible = false
 shape = SubResource("CapsuleShape2D_3vgd6")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1925154199]
+position_smoothing_enabled = true
